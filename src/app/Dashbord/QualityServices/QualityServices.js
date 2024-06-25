@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Title } from '../Title/page';
+import  Title  from '../Title/page';
 import Image from 'next/image';
 import html from '../../images/html.png';
 import css from '../../images/css-code.png';
@@ -29,7 +29,7 @@ const skillsData = [
   { img: aws, alt: 'AWS', percentage: '90%', name: 'AWS' },
 ];
 
-export const QualityServices = () => {
+const QualityServices = () => {
   const titleData = {
     title: 'My Skills',
     description: 'We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.',
@@ -59,3 +59,5 @@ export const QualityServices = () => {
     </div>
   );
 };
+
+export default QualityServices;

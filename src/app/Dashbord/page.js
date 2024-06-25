@@ -3,11 +3,11 @@ import React, { useRef } from 'react';
 import Navbar from './Navbar/page';
 import Name from './Name/page';
 import History from './history/page';
-import { QualityServices } from './QualityServices/QualityServices';
-import { RecentWorks } from './RecentWorks/page';
-import { ExperienceEducation } from './ExperienceEducation/page';
-import { Contact } from './Contact/page';
-import { SkillsinProgress } from './SkillsinProgress/page';
+import QualityServices from './QualityServices/QualityServices';
+import RecentWorks from './RecentWorks/page';
+import ExperienceEducation from './ExperienceEducation/page';
+import Contact from './Contact/page';
+import SkillsinProgress from './SkillsinProgress/page';
 
 const Dashboard = () => {
   const sections = {

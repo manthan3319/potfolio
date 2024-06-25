@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import { Title } from '../Title/page';
+import Title  from '../Title/page';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Image from 'next/image';
@@ -15,7 +15,7 @@ const worksData = [
     { id: 5, category: 'Nodejs', image: cune, projectname:"Usd" },
 ];
 
-export const RecentWorks = () => {
+const RecentWorks = () => {
     const titleData = {
         title: 'My Recent Works',
         description: 'We put your ideas and thus your wishes in the form of a unique web project that inspires you and your customers.'
@@ -96,3 +96,5 @@ export const RecentWorks = () => {
         </div>
     );
 };
+
+export default RecentWorks;

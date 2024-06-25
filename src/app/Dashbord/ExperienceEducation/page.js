@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Title } from '../Title/page';
-export const ExperienceEducation = () => {
+import  Title  from '../Title/page';
+const ExperienceEducation = () => {
     const experienceData = [
         {
             date: '2022 - Present',
@@ -72,3 +72,5 @@ export const ExperienceEducation = () => {
         </div>
     );
 };
+
+export default ExperienceEducation;

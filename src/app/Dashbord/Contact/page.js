@@ -1,8 +1,8 @@
 import React from 'react'
-import { Title } from '../Title/page';
+import  Title from '../Title/page';
 import Link from 'next/link';
 
-export const Contact = () => {
+const Contact = () => {
     const links = [
         { href: 'https://www.linkedin.com/in/yourprofile', icon: 'fa-linkedin', name: "Linkedin" },
         { href: 'https://github.com/yourprofile', icon: 'fa-github', name: "Github" },
@@ -77,3 +77,6 @@ export const Contact = () => {
         </div>
     );
 }
+
+
+export default Contact;
