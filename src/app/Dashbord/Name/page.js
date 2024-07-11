@@ -3,7 +3,7 @@ import Image from 'next/image';
 import profile from '../../images/hero_img.webp'; 
 const links = [
     { href: 'https://www.linkedin.com/in/yourprofile', icon: 'fa-linkedin' },
-    { href: 'https://github.com/yourprofile', icon: 'fa-github' },
+    { href: 'https://github.com/manthan3319/backend_new_demo.git', icon: 'fa-github' },
     { href: 'https://wa.me/yourphonenumber', icon: 'fa-whatsapp' },
     { href: 'mailto:youremail@example.com', icon: 'fa-envelope-o' },
 ];

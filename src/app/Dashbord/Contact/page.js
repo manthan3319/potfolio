@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Contact = () => {
     const links = [
         { href: 'https://www.linkedin.com/in/yourprofile', icon: 'fa-linkedin', name: "Linkedin" },
-        { href: 'https://github.com/yourprofile', icon: 'fa-github', name: "Github" },
+        { href: 'https://github.com/manthan3319/backend_new_demo.git', icon: 'fa-github', name: "Github" },
         { href: 'https://wa.me/yourphonenumber', icon: 'fa-whatsapp', name: "Whatsapp" },
     ];
 
